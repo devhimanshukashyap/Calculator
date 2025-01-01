@@ -8,23 +8,25 @@
 </head>
 <body>
     <div id="container">
-        <div id="display"></div>
+        <input type="text" id="display">
         <div id="numpad">
-            <button class="num" id="num1">1</button>
-            <button class="num" id="num2">2</button>
-            <button class="num" id="num3">3</button>
-            <button class="num" id="num4">4</button>
-            <button class="num" id="num5">5</button>
-            <button class="num" id="num6">6</button>
-            <button class="num" id="num7">7</button>
-            <button class="num" id="num8">8</button>
-            <button class="num" id="num9">9</button>
-            <button class="num" id="num0">0</button>
-            <button class="num" id="num10">/</button>
-            <button class="num" id="num11">*</button>
-            <button class="num" id="num12">-</button>
-            <button class="num" id="num13">+</button>
-            <button class="num" id="num14">.</button>
+            <button onclick="numDisplay(1)" class="num" id="num1">1</button>
+            <button onclick="numDisplay(2)" class="num" id="num2">2</button>
+            <button onclick="numDisplay(3)" class="num" id="num3">3</button>
+            <button onclick="numDisplay(4)" class="num" id="num4">4</button>
+            <button onclick="numDisplay(5)" class="num" id="num5">5</button>
+            <button onclick="numDisplay(6)" class="num" id="num6">6</button>
+            <button onclick="numDisplay(7)" class="num" id="num7">7</button>
+            <button onclick="numDisplay(8)" class="num" id="num8">8</button>
+            <button onclick="numDisplay(9)" class="num" id="num9">9</button>
+            <button onclick="numDisplay(0)" class="num" id="num0">0</button>
+            <button onclick="numDisplay('/')" class="num" id="num10">/</button>
+            <button onclick="numDisplay('*')" class="num" id="num11">*</button>
+            <button onclick="numDisplay('-')" class="num" id="num12">-</button>
+            <button onclick="numDisplay('+')" class="num" id="num13">+</button>
+            <button onclick="numDisplay('.')" class="num" id="num14">.</button>
+            <button onclick="clearDisplay()" class="num" id="num15">C</button>
+            <button onclick="Calculate()" class="num" id="num16">= </button>
         </div>
     </div>
 </body>
