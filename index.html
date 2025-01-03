@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="container">
-        <input type="text" id="display">
+        <input onsearch="calculationC()" type="text" id="display">
         <div id="numpad">
             <button onclick="numDisplay(1)" class="num" id="num1">1</button>
             <button onclick="numDisplay(2)" class="num" id="num2">2</button>
@@ -27,6 +27,7 @@
             <button onclick="numDisplay('.')" class="num" id="num14">.</button>
             <button onclick="clearDisplay()" class="num" id="num15">C</button>
             <button onclick="Calculate()" class="num" id="num16">= </button>
+            <button onclick="Backspace()" class="num" id="num16"><---</button>
         </div>
     </div>
 </body>
